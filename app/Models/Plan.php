@@ -18,7 +18,8 @@ class Plan extends Model
             'descrizione',
             'durata',
             'distanza',
-            'altitudine'
+            'altitudine',
+            'guida'
     ];
 
     // relazione con modello user

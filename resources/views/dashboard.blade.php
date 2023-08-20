@@ -62,6 +62,14 @@
               <input type="number" name="altitudine" class="form-control" placeholder="Altitudine" required>
             </div>
             <div class="my-2">
+                <label for="guida">Guida</label>
+                <select name="guida">
+                  <option value="1" required>Si</option>
+                  <option value="0" required>No</option>
+                </select>
+              <!--<input type="boolean" name="guida" class="form-control" placeholder="Guida" required> da fare sotto-->
+            </div>
+            <div class="my-2">
               <label for="immagine">Scegli immagine</label>
               <input type="file" name="immagine" class="form-control" required>
             </div>
@@ -108,6 +116,13 @@
             <div class="my-2">
               <label for="altitudine">Altitudine</label>
               <input type="number" name="altitudine" class="form-control" placeholder="Altitudine" required>
+            </div>
+            <div class="my-2">
+              <label for="guida">Guida</label>
+                <select name="guida">
+                  <option value="1" required>Si</option>
+                  <option value="0" required>No</option>
+                </select>
             </div>
           <div class="my-2">
             <label for="immagine">Scegli immagine</label>
@@ -177,6 +192,7 @@
             $("#durata").val(response.durata);
             $("#distanza").val(response.distanza);
             $("#altitudine").val(response.altitudine);
+            $("#guida").val(response.guida);
             $("#immagine").html(
               `<img src="storage/images/${response.immagine}" width="100" class="img-fluid img-thumbnail">`);
             $("#emp_id").val(response.id);

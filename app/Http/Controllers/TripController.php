@@ -26,6 +26,7 @@ class TripController extends Controller
                 <th>Durata</th>
                 <th>Distanza</th>
                 <th>Altitudine</th>
+                <th>Guida</th>
                 <th>Action</th>
               </tr>
             </thead>
@@ -39,6 +40,7 @@ class TripController extends Controller
                 <td>' . $rs->durata . '</td>
                 <td>' . $rs->distanza . '</td>
                 <td>' . $rs->altitudine . '</td>
+                <td>' . $rs->guida . '</td>
                 <td>
                   <a href="#" id="' . $rs->id . '" class="text-success mx-1 editIcon" data-bs-toggle="modal" data-bs-target="#editEmployeeModal"><i class="bi-pencil-square h4"></i></a>
                   <a href="#" id="' . $rs->id . '" class="text-danger mx-1 deleteIcon"><i class="bi-trash h4"></i></a>
@@ -58,7 +60,7 @@ class TripController extends Controller
         $fileName = time() . '.' . $file->getClientOriginalExtension();
         $file->storeAs('public/images', $fileName); //php artisan storage:link
 
-        $empData = ['nome' => $request->nome, 'tipologia' => $request->tipologia, 'durata' => $request->durata, 'distanza' => $request->distanza, 'altitudine' => $request->altitudine, 'immagine' => $fileName];
+        $empData = ['nome' => $request->nome, 'tipologia' => $request->tipologia, 'durata' => $request->durata, 'distanza' => $request->distanza, 'altitudine' => $request->altitudine, 'guida' => $request->guida,'immagine' => $fileName];
         Trip::create($empData);
         return response()->json([
             'status' => 200,
@@ -87,7 +89,7 @@ class TripController extends Controller
             $fileName = $request->emp_avatar;
         }
 
-        $empData = ['nome' => $request->nome, 'tipologia' => $request->tipologia, 'durata' => $request->durata, 'distanza' => $request->distanza, 'altitudine' => $request->altitudine, 'immagine' => $fileName];
+        $empData = ['nome' => $request->nome, 'tipologia' => $request->tipologia, 'durata' => $request->durata, 'distanza' => $request->distanza, 'altitudine' => $request->altitudine, 'guida' => $request->guida, 'immagine' => $fileName];
 
         $emp->update($empData);
         return response()->json([

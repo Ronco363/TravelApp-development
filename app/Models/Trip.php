@@ -15,7 +15,8 @@ class Trip extends Model
         'durata',
         'distanza',
         'altitudine',
-        'immagine'
+        'immagine',
+        'guida'
     ];
 
     public function TourGuide()
