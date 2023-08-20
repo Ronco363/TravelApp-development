@@ -28,7 +28,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 3, #ore
                 'distanza' => 15, #km
                 'altitudine' => 880, #metri
-                
+                'guida' => 0,
             ],
             [
                 'nome' => 'Sentiero del Monte Cecilia - Colli Euganei', 
@@ -45,6 +45,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 6, #km
                 'altitudine' => 180, #metri
+                'guida' => 0,
                 
             ],
             [
@@ -62,7 +63,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 3, #ore
                 'distanza' => 10, #km
                 'altitudine' => 350, #metri
-                
+                'guida' => 0,
             ],
             [
                 'nome' => 'Valle Panaro', 
@@ -78,7 +79,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 7, #km
                 'altitudine' => 240, #metri
-                
+                'guida' => 0,
             ],
             [
                 'nome' => 'Acquedotto Romano',
@@ -95,6 +96,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 4, #ore
                 'distanza' => 12, #km
                 'altitudine' => 440, #metri
+                'guida' => 0,
             ],
             [
                 'nome' => 'Parco dei Gessi Bolognesi',
@@ -111,7 +113,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 7, #km
                 'altitudine' => 240, #metri
-                
+                'guida' => 0,
             ], 
             [
                 'nome' => 'Merano',
@@ -128,7 +130,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 5, #ore
                 'distanza' => 17, #km
                 'altitudine' => 380, #metri
-                
+                'guida' => 0,
             ],
             [
                 'nome' => 'Giro da Dorf Tirol',
@@ -145,6 +147,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 6, #km
                 'altitudine' => 250, #metri
+                'guida' => 0,
             ],
             [
                 'nome' => 'Lago di Carezza',
@@ -161,6 +164,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 5, #ore
                 'distanza' => 15, #km
                 'altitudine' => 640, #metri
+                'guida' => 0,
             ],
             [
                 'nome' => 'Anello Fluviale Padova',
@@ -177,6 +181,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 3, #ore
                 'distanza' => 47, #km
                 'altitudine' => 80, #metri
+                'guida' => 0,
             ],
             [
                 'nome' => 'Da Venezia-Mestre a Mirano in bici',
@@ -193,6 +198,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 30, #km
                 'altitudine' => 50, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Parco Regionale Colli Euganei',
@@ -209,6 +215,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 4, #ore
                 'distanza' => 67, #km
                 'altitudine' => 330, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Riserva Naturale delle Salse di Nirano',
@@ -225,6 +232,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 3, #ore
                 'distanza' => 40, #km
                 'altitudine' => 450, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Giro ad anello da Bologna a Minerbio',
@@ -241,6 +249,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 3, #ore
                 'distanza' => 47, #km
                 'altitudine' => 80, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Giro ad anello a Sassuolo',
@@ -257,6 +266,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 3, #ore
                 'distanza' => 40, #km
                 'altitudine' => 450, #metr
+                'guida' => 0,
             ],
 
             [
@@ -274,6 +284,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 4, #ore
                 'distanza' => 64, #km
                 'altitudine' => 970, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'I laghi di Levico e Caldonazzo',
@@ -290,6 +301,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 29, #km
                 'altitudine' => 310, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Trento e la Valle dell"Adige',
@@ -306,6 +318,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 3, #ore
                 'distanza' => 44, #km
                 'altitudine' => 360, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Itinerario ad anello a Monselice',
@@ -323,6 +336,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 17, #km
                 'altitudine' => 500, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Itinerario a Treviso',
@@ -340,6 +354,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 20, #km
                 'altitudine' => 60, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Verona e la visita da Castel San Pietro',
@@ -356,6 +371,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 1, #ore
                 'distanza' => 10, #km
                 'altitudine' => 50, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Giardini Margherita - Bologna',
@@ -372,6 +388,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 1, #ore
                 'distanza' => 10, #km
                 'altitudine' => 50, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Giardino di Porta Saragozza',
@@ -389,6 +406,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 1, #ore
                 'distanza' => 10, #km
                 'altitudine' => 310, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Tour a Modena',
@@ -405,6 +423,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 2, #ore
                 'distanza' => 29, #km
                 'altitudine' => 310, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Tour Bolzano',
@@ -421,6 +440,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 1, #ore
                 'distanza' => 9, #km
                 'altitudine' => 130, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Lago di Levico',
@@ -437,6 +457,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 1, #ore
                 'distanza' => 9, #km
                 'altitudine' => 130, #metr
+                'guida' => 0,
             ],
             [
                 'nome' => 'Lago di Zoccolo',
@@ -453,6 +474,7 @@ class PlanSeeder extends Seeder # php artisan db:seed --class=PlanSeeder
                 'durata' => 1, #ore
                 'distanza' => 9, #km
                 'altitudine' => 180, #metr
+                'guida' => 0,
             ]
 
         ];

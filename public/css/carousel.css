@@ -38,8 +38,7 @@ text-muted {
 }
 
 .titolo, .descrizione {
-    text-align: left;
-    padding-left: 25rem;
+    text-align: center;
 }
 
 .ciclismo, .escursionismo, .passeggiata {

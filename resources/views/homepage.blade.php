@@ -79,7 +79,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item">
                     <!--<a class="nav-link" href="">Shop</a>-->
-                    <a class="nav-link"href="{{ route('shop') }} ">Shop</a>
+                    <a class="nav-link" href="{{ route('shop') }} ">Shop</a>
                 </li>
                 </ul>
                 @if (Route::has('login'))
@@ -87,9 +87,9 @@
                         @auth
                             <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
                                 @else
-                                    <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+                                    <a href="{{ route('login') }}" class="text-secondary text-decoration-none">Login</a>
                                 @if (Route::has('register'))
-                                    <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
+                                    <a href="{{ route('register') }}" class="text-secondary text-decoration-none">Register</a>
                                 @endif
                         @endauth
                     </div>
@@ -119,7 +119,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <div class="card-body">
-                <img src="images/bici.jpg" style="width:360px;height:210px;">
+                <img src="images/bici.jpg" style="width:300px;height:200px;">
                 <h2 class="fw-normal text-center">Ciclismo</h2>
                 <p class="ciclismo">Per coloro che vogliono scoprire nuovi percorsi o concedersi una gita fuori porta in bici!</p>
                 <p><a class="btn btn-secondary" href="/ciclismo">Inizia &raquo;</a></p>
@@ -130,7 +130,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <div class="card-body">
-                <img src="images/escursione.jpg" style="width:360px;height:200px;">
+                <img src="images/escursione.jpg" style="width:300px;height:200px;">
                 <h2 class="fw-normal text-center">Escursionismo</h2>
                 <p class="escursionismo">Per gli amanti della montagna e delle avventure al limite!</p>
                 <p><a class="btn btn-secondary" href="/escursionismo">Inizia &raquo;</a></p>
@@ -141,7 +141,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <div class="card-body">
-                <img src="images/passeggiata.jpg" style="width:360px;height:200px;">
+                <img src="images/passeggiata.jpg" style="width:300px;height:200px;">
                 <h2 class="fw-normal text-center">Passeggiata</h2>
                 <p class="passeggiata">Per coloro che desiderano una semplice ma non meno piacevole esperienza a piedi in percorsi facili!</p>
                 <p><a class="btn btn-secondary" href="/passeggiata">Inizia &raquo;</a></p>
